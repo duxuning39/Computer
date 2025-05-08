@@ -72,7 +72,12 @@ def main():
     plt.ylabel('Loss')
     plt.title('Training Loss Curve')
     plt.show()
+    # 新增：打印最后一个epoch的loss
+    print("最后一个epoch的loss:", losses[-1])
+
 
 if __name__ == "__main__":
     main()    # 调用主函数    可以保存图像 plt.savefig("linear_regression.png") 保存图像为png格式   
     # print(f"True Weights: {features[:, 0]}")        
+#x修改相关文件增加一段打程序
+    print("hello world")
